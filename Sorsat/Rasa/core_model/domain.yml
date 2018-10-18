@@ -1,0 +1,93 @@
+action_factory: null
+action_names:
+- kuka_olet
+- tykkaamiset
+- kohteliaisuus
+- tilaa_juoma
+- tilaa_tietty_juoma
+- moimoi
+- kerro_vitsi
+- mita_juomia
+- miten_maksaa
+- apua
+- hinta
+- miten_menee
+- Greetings
+actions:
+- kuka_olet
+- tykkaamiset
+- kohteliaisuus
+- tilaa_juoma
+- tilaa_tietty_juoma
+- moimoi
+- kerro_vitsi
+- mita_juomia
+- miten_maksaa
+- apua
+- hinta
+- miten_menee
+- Greetings
+config:
+  store_entities_as_slots: true
+entities:
+- drinkki
+intents:
+- chat_who_are_you
+- chat_preferences
+- chat_compliment
+- service_order_drink
+- service_order_specific_drink
+- general_goodbye
+- service_joke
+- service_tell_drinklist
+- service_pay_method
+- info_help
+- service_price
+- chat_how_are_you
+- general_greeting
+slots:
+  drinkki:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  Greetings:
+  - text: Moikka! Mitä juotavaa saisi olla?
+  - text: Päivää. Mitä saisi olla?
+  - text: Moro! Mitä laitetaan?
+  apua:
+  - text: Kerro vain minkä juoman haluat ja maksa mobile paylla, niin saat juomasi.
+  hinta:
+  - text: Kaikki juomat maksavat 3 euroa.
+  - text: Kolmella eurolla saat kostutettua huulesi.
+  kerro_vitsi:
+  - text: Olipa kerran pylly... ei ollut enää.
+  - text: Mies meni kauppaan. Lapio.
+  - text: Kuka juo mielummin viiniä kuin vettä? Jeesus.
+  kohteliaisuus:
+  - text: Kiitos! Hyvä, että onnistuin miellyttämään sinua.
+  - text: Voi kiitos, johan tässä jo punastuu.
+  kuka_olet:
+  - text: Olen Tero, älykäs Juomarobotti.
+  - text: Nimeni on Tero ja olen älykäs Juomarobotti.
+  mita_juomia:
+  - text: Voit tilata esimerkiksi Long Island Ice Tea:n, Cuba Libren tai Kelkan. Voit
+      myös selata tarjolla olevia juomia nappuloilla.
+  miten_maksaa:
+  - text: Voit maksaa mobile paylla.
+  - text: Mobile Pay on ainoa mahdollinen maksutapa tällä hetkellä.
+  miten_menee:
+  - text: Minulla menee hyvin, kiitos kysymästä.
+  - text: Hyvin pyyhkii.
+  moimoi:
+  - text: Moikka! Oli ilo palvella teitä.
+  - text: Moido! Toivottavasti palveluni kelpasivat teille.
+  tilaa_juoma:
+  - text: Minkä juoman haluaisit?
+  - text: Mitä juotavaa saisi olla?
+  - text: Minkä drinkin haluaisit? Suosittelen Cuba Libreä.
+  tilaa_tietty_juoma:
+  - text: Maksa ensin juoma mobile paylla, niin juomasi on valmis tuota pikaa.
+  - text: Selvä. {drinkki} on valmis kohta.
+  tykkaamiset:
+  - text: Pidän drinkkien tekemisestä ja ihmisten naurattamisesta.
+  - text: Tykkään makaroonilaatikosta.

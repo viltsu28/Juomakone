@@ -1,0 +1,91 @@
+intents:
+  - chat_who_are_you
+  - chat_preferences
+  - chat_compliment
+  - service_order_drink
+  - service_order_specific_drink
+  - general_goodbye
+  - service_joke
+  - service_tell_drinklist
+  - service_pay_method
+  - info_help
+  - service_price
+  - chat_how_are_you
+  - general_greeting
+
+entities:
+  - drinkki
+
+slots:
+  drinkki:
+    type: text
+
+actions:
+- kuka_olet
+- tykkaamiset
+- kohteliaisuus
+- tilaa_juoma
+- tilaa_tietty_juoma
+- moimoi
+- kerro_vitsi
+- mita_juomia
+- miten_maksaa
+- apua
+- hinta
+- miten_menee
+- Greetings
+
+templates:
+  kuka_olet:
+    - "Olen Tero, älykäs Juomarobotti."
+    - "Nimeni on Tero ja olen älykäs Juomarobotti."
+
+  tykkaamiset:
+    - "Pidän drinkkien tekemisestä ja ihmisten naurattamisesta."
+    - "Tykkään makaroonilaatikosta."
+
+  kohteliaisuus:
+    - "Kiitos! Hyvä, että onnistuin miellyttämään sinua."
+    - "Voi kiitos, johan tässä jo punastuu."
+
+  tilaa_juoma:
+    - "Minkä juoman haluaisit?"
+    - "Mitä juotavaa saisi olla?"
+    - "Minkä drinkin haluaisit? Suosittelen Cuba Libreä."
+
+  tilaa_tietty_juoma:
+    - "Maksa ensin juoma mobile paylla, niin juomasi on valmis tuota pikaa."
+    - "Selvä. {drinkki} on valmis kohta."
+
+  moimoi:
+    - "Moikka! Oli ilo palvella teitä."
+    - "Moido! Toivottavasti palveluni kelpasivat teille."
+
+  kerro_vitsi:
+    - "Olipa kerran pylly... ei ollut enää."
+    - "Mies meni kauppaan. Lapio."
+    - "Kuka juo mielummin viiniä kuin vettä? Jeesus."
+
+  mita_juomia:
+    - "Voit tilata esimerkiksi Long Island Ice Tea:n, Cuba Libren tai Kelkan. Voit myös selata tarjolla olevia juomia nappuloilla."
+
+  miten_maksaa:
+    - "Voit maksaa mobile paylla."
+    - "Mobile Pay on ainoa mahdollinen maksutapa tällä hetkellä."
+
+  apua:
+    - "Kerro vain minkä juoman haluat ja maksa mobile paylla, niin saat juomasi."
+
+  hinta:
+    - "Kaikki juomat maksavat 3 euroa."
+    - "Kolmella eurolla saat kostutettua huulesi."
+
+  miten_menee:
+    - "Minulla menee hyvin, kiitos kysymästä."
+    - "Hyvin pyyhkii."
+
+  Greetings:
+    - "Moikka! Mitä juotavaa saisi olla?"
+    - "Päivää. Mitä saisi olla?"
+    - "Moro! Mitä laitetaan?"
+

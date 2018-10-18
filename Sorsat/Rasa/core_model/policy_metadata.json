@@ -1,0 +1,56 @@
+{
+  "action_fingerprints": {
+    "kerro_vitsi": {
+      "slots": []
+    }, 
+    "apua": {
+      "slots": []
+    }, 
+    "tilaa_juoma": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": []
+    }, 
+    "miten_menee": {
+      "slots": []
+    }, 
+    "miten_maksaa": {
+      "slots": []
+    }, 
+    "hinta": {
+      "slots": []
+    }, 
+    "kohteliaisuus": {
+      "slots": []
+    }, 
+    "mita_juomia": {
+      "slots": []
+    }, 
+    "tilaa_tietty_juoma": {
+      "slots": []
+    }, 
+    "Greetings": {
+      "slots": []
+    }, 
+    "kuka_olet": {
+      "slots": []
+    }, 
+    "moimoi": {
+      "slots": []
+    }, 
+    "tykkaamiset": {
+      "slots": []
+    }
+  }, 
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ], 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "max_histories": [
+    3, 
+    3
+  ], 
+  "rasa_core": "0.10.0a2"
+}

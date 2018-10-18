@@ -1,0 +1,5642 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "apua", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "miten tilaan juomia", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "miten voin tilata juomia", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "miten toimit", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "autas vähän", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "miten homma toimii", 
+        "intent": "info_help"
+      }, 
+      {
+        "text": "hyvää yötä", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "heippa", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "nähdään huomenna", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "näkemiin", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "moimoi", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "heihei", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "nähdään taas", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "hyvästi", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "näkemisiin", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "öitä", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "moikka", 
+        "intent": "general_goodbye"
+      }, 
+      {
+        "text": "kerro vitsejä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "hyvä läppä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "osaako robotit kertoa vitsejä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "ootko huumorintajuinen", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "osaatko yhtään vitsiä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "mikä on paras puujalkavitsi", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "onko robotit hauskoja", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "saatko minut nauramaan", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "heitä jotain hyvää läppää", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "naurata minua", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "voitko sanoo joku hassun vitsin", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "kerro vitsi", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "heitä läppää", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "oletko hauska", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "haluisin kuulla jonku hauskan vitsin", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "heitä joku hyvä läppä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "osaatko vitsejä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "voitko kertoa vitsejä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "vitsi", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "haluan kuulla vitsejä", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "kerro jotain hauskaa", 
+        "intent": "service_joke"
+      }, 
+      {
+        "text": "älä tee", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älkää", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en ole varma", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei todellakaan", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei varata", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei valita", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "no ei", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "eieiei", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "stop", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "peruutetaan", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "seis", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "lopeta jankutus", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ole hiljaa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älä jankuta", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "keskeytä toiminto", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "vaihdetaan aihetta", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "lopeta kyseleminen", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "mene alkuun", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "peruutus", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "mene pois", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "lopeta siirto", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "keskeytetään", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "pysähdy", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "takaisin", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älä vahvista", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "palaa takaisin", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ohita", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "poistu", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "keskeytä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "joo ei kyl", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "joo en kyllä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "joo ei kyllä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "joo ei missään nimessä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "haluan perua", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "haluan lopettaa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "haluan keskeyttää", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en halua hyväksyä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en hyväksy", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei kiitos", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älä aloita", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei aloiteta", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei hyväksytä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "annetaan olla", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "anna olla", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "perutaan", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "palaa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "peruuta", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "älä hyväksy", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "eikä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "eipäs", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei ole", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "lopeta ajanvaraus", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "enkä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "et", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "lopeta", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "opettaa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "peru", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "pois", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "ei missään tapauksessa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en halua vahvistaa", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en halua", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en tahdo", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "en missään nimessä", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "Emma sittenkään", 
+        "intent": "general_no"
+      }, 
+      {
+        "text": "mitä voin tilata", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "saisinko drinkkilistan", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "mitä juotavaa voin tilata", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "mitä sinulta löytyy", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "mitä juomia osaat tehdä", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "mitä voin juoda", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "kerro mitä juomia on tarjolla", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "minkälainen drinkkilista on", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "millainen valikoima sinulta löytyy", 
+        "intent": "service_tell_drinklist"
+      }, 
+      {
+        "text": "kuinka sinä voit", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mitä sinulle kuuluu", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mikä meno", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mitä mies", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "wadap", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "onks hyvä päivä", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mitn sä voit", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "miten sulla menee", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "miten sinulla menee", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "kuinka robotti voi", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "oliko kiva aamu", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mite mennöö", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "miten menee", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mitä kuuluu", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "onko sulla hyvä päivä", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "kuis hurisee", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mikä meininki", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "mitä sulle kuuluu", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "miten sinä voit", 
+        "intent": "chat_how_are_you"
+      }, 
+      {
+        "text": "millä nimellä sinua kutsutaan", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä sinun nimi on", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä sinun nimesi on", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä robotti sinä olet", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "oletko robotti", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä oot", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "kuka sinä olet", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä ton nimi on", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä sun nimi on", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "kuka olet", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "kerro nimesi", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "miksi kutsuisin sinua", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "miksikä sinua kutsutaan", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "text": "mikä on nimesi", 
+        "intent": "chat_who_are_you"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Tequila shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Matkamiehen kuolema kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 15, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Valkovenäläinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Jekkubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Jallukola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Caipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "kaipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Asterix kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 17, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Galliano Hot Shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Kossurussian kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Kelkka kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Kossubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Mai tai kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Ampiainen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 13, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Auringonlasku kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 16, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Sex on the beach kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 17, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Sex on the Forssa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Marianne kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Cosmopolitan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Rob Roy kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Strawberry daiquiri kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 14, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Ville Vallaton kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 18, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Kipparin erikoinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Niskalaukaus kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 20, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Strawberry margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Top Gun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 13, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Punainen kala kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 21, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Seikkailu kevätjäillä kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Mojito kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Long Island Ice Tea kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Irish Coffee kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Cuba Libre kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "rommikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "rommi kola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Gin Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Pina Colada kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Whisky Sour kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "White Nun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Manhattan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Vodka Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 13, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Vodka Martini kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Viskipommi kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Viskikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Virtanen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Tom Collins kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Barracuda kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Mimosa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 15, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Tequila Sunrise kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Bloody Mary kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 15, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Singapore Sling kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 14, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "Sininen enkeli kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Tequila shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 32, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Matkamiehen kuolema"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 28, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Valkovenäläinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Jekkubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Jallukola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Caipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli kaipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Asterix"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 30, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Galliano Hot Shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Kossurussian"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Kelkka"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Kossubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Mai tai"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Ampiainen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Auringonlasku"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 29, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Sex on the beach"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 30, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Sex on the Forssa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Marianne"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Cosmopolitan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Rob Roy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 32, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Strawberry daiquiri"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 27, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Ville Vallaton"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 31, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Kipparin erikoinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Niskalaukaus"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 33, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Strawberry margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 20, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Top Gun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Punainen kala"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 34, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Seikkailu kevätjäillä"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Mojito"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 32, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Long Island Ice Tea"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 25, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Irish Coffee"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Cuba Libre"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli rommikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli rommi kola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Gin Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Pina Colada"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Whisky Sour"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli White Nun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Manhattan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Vodka Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 26, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Vodka Martini"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 23, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Viskipommi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Viskikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Virtanen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Tom Collins"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 22, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Barracuda"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 19, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Mimosa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 28, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Tequila Sunrise"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 24, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Bloody Mary"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 28, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Singapore Sling"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 27, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tekisi mieli Sininen enkeli"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Tequila shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 35, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Matkamiehen kuolema"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 31, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Valkovenäläinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Jekkubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Jallukola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 26, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Caipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 26, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden kaipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 23, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Asterix"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 33, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Galliano Hot Shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Kossurussian"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Kelkka"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Kossubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 23, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Mai tai"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Ampiainen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 29, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Auringonlasku"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 32, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Sex on the beach"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 33, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Sex on the Forssa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Marianne"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Cosmopolitan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 23, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Rob Roy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 35, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Strawberry daiquiri"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 30, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Ville Vallaton"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 34, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Kipparin erikoinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Niskalaukaus"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 36, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Strawberry margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 23, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Top Gun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 29, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Punainen kala"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 37, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Seikkailu kevätjäillä"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Mojito"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 35, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Long Island Ice Tea"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Irish Coffee"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 26, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Cuba Libre"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden rommikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 26, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden rommi kola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Gin Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Pina Colada"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Whisky Sour"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden White Nun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Manhattan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Vodka Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 29, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Vodka Martini"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 26, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Viskipommi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Viskikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Virtanen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Tom Collins"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Barracuda"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 22, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Mimosa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 31, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Tequila Sunrise"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 27, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Bloody Mary"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 31, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Singapore Sling"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 30, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluaisin yhden Sininen enkeli"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 27, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Tequila shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 34, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Matkamiehen kuolema kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 30, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Valkovenäläinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Jekkubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Jallukola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Caipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden kaipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Asterix kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 32, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Galliano Hot Shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 27, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Kossurussian kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Kelkka kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Kossubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Mai tai kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Ampiainen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 28, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Auringonlasku kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 31, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Sex on the beach kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 32, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Sex on the Forssa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Marianne kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 27, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Cosmopolitan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Rob Roy kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 34, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Strawberry daiquiri kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 29, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Ville Vallaton kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 33, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Kipparin erikoinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 27, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Niskalaukaus kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 35, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Strawberry margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Top Gun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 28, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Punainen kala kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 36, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Seikkailu kevätjäillä kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Mojito kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 34, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Long Island Ice Tea kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 27, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Irish Coffee kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Cuba Libre kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden rommikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden rommi kola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Gin Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Pina Colada kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Whisky Sour kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden White Nun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Manhattan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Vodka Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 28, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Vodka Martini kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 25, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Viskipommi kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Viskikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Virtanen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Tom Collins kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 24, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Barracuda kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Mimosa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 30, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Tequila Sunrise kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 26, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Bloody Mary kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 30, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Singapore Sling kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 15, 
+            "end": 29, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "tilaisin yhden Sininen enkeli kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Tequila shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Matkamiehen kuolema"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Valkovenäläinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Jekkubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Jallukola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Caipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan kaipiroska"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Asterix"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 24, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Galliano Hot Shot"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Kossurussian"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Kelkka"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Kossubattey"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Mai tai"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Ampiainen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Auringonlasku"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 23, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Sex on the beach"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 24, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Sex on the Forssa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Marianne"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Cosmopolitan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Rob Roy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Strawberry daiquiri"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Ville Vallaton"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 25, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Kipparin erikoinen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Niskalaukaus"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 27, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Strawberry margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Top Gun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Punainen kala"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Margarita"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 28, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Seikkailu kevätjäillä"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Mojito"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Long Island Ice Tea"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Irish Coffee"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Cuba Libre"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan rommikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan rommi kola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Gin Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Pina Colada"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Whisky Sour"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan White Nun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Manhattan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Vodka Tonic"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Vodka Martini"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Viskipommi"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Viskikola"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Virtanen"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Tom Collins"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Barracuda"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Mimosa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Tequila Sunrise"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Bloody Mary"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Singapore Sling"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "haluan Sininen enkeli"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Tequila shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 24, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Matkamiehen kuolema kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Valkovenäläinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Jekkubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Jallukola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 15, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Caipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 15, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi kaipiroska kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Asterix kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 22, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Galliano Hot Shot kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Kossurussian kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Kelkka kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Kossubattey kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Mai tai kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Ampiainen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Auringonlasku kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 21, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Sex on the beach kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 22, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Sex on the Forssa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Marianne kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Cosmopolitan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Rob Roy kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 24, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Strawberry daiquiri kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 19, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Ville Vallaton kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 23, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Kipparin erikoinen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Niskalaukaus kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 25, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Strawberry margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Top Gun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Punainen kala kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Margarita kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 26, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Seikkailu kevätjäillä kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Mojito kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 24, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Long Island Ice Tea kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 17, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Irish Coffee kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 15, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Cuba Libre kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi rommikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 15, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi rommi kola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Gin Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Pina Colada kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Whisky Sour kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi White Nun kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Manhattan kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Vodka Tonic kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Vodka Martini kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 15, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Viskipommi kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Viskikola kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Virtanen kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Tom Collins kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 14, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Barracuda kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Mimosa kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Tequila Sunrise kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 16, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Bloody Mary kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Singapore Sling kiitos"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 19, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_order_specific_drink", 
+        "text": "yksi Sininen enkeli kiitos"
+      }, 
+      {
+        "text": "tehdään", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "joo", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "ehdottomasti", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jepulis", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "kyllä", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jatkaa", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "tahdon", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "vahvista", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "ok", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "valitaan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "varataan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "joo kyllä", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "todellakin", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "haluan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "olen varma", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "kyllä olen varma", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "juu", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "varmasti", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "vahvistetaan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "vahvistan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "todellaki", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "tietenkin", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "taatusti", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "siirrä vaan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "kyl", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jepjep", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jeppis", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jatketaan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "vahvistus", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "vahvistaa", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "hyväksyä", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "hyväksytään", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "epäilemättä", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "anna tulla", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "anna mennä", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "luonnollisesti", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jees", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jep", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jatkan", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jeah", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "jatka", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "toki", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "tietysti", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "sopii", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "salee", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "on", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "ookoo", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "tottakai", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "olen", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "okei", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "khyl", 
+        "intent": "general_yes"
+      }, 
+      {
+        "text": "voi kiitos", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "hauska kuulla", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kiitosta", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "mahtavaa", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "jee kiitos", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kelpo suoritus", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "jes", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "hienosti tehty", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kiitän", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kiitos kovasti", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kiitti", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "mahtavaa työtä", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "olet paras", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "oot tosi söpö", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "olet hurmaava", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "voi kun olet kiltti", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "kiitos", 
+        "intent": "general_positive_reaction"
+      }, 
+      {
+        "text": "haluaisin tilata juotavaa", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "antaisitko juomista", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "haluaisin drinkin", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "haluaisin juoman", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "anna juotavaa", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "olen janoinen", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "haluan juomaa", 
+        "intent": "service_order_drink"
+      }, 
+      {
+        "text": "surkea kapistus", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "lähde pois", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "sinusta ei ole mitään hyötyä", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "oot ihan surkee", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "oot tosi typerä", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "sinä et kyllä osaa mitään", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "ihan paska robotti", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "olet tyhmä", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "älä puhu minulle", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "nyt meni kyllä ihan väärin", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "tää ei toimi", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "ihan surkee vitsi", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "olet hölmö", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "olet ruma", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "paskiainen", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "kakkapää", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "en tahdo apua", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "mene pois siitä", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "en halua puhua sinulle", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "en tarvitse apua", 
+        "intent": "general_negative_reaction"
+      }, 
+      {
+        "text": "mukava tavata", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moii", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "heipparallaa", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "terveppäterve", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "iltaa", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moroo", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moe", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "ciao", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "heippodei", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "tervehdys", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "oikein hyvää huomenta", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "morjensta", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "päivää", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "huomenta", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "hellurei", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "helou", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "wadap", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "hei vaan", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moro", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "hei", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moikkamoi", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "no mutta hyvää huometa", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "terveppä terve", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moromoro", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "hyvää päivää", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "moi", 
+        "intent": "general_greeting"
+      }, 
+      {
+        "text": "vihaatko meitä", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "tykkääksä musta", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "tykkäätkö karkista", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "mitä mieltä olet koirista", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "tykkäätkö enemmän kissoista vai koirista", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "mistä pidät", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "nautitko kesästä", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "mikä on lempi vuodenaikasi", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "onko sinusta kesä kiva", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "mitä tykkäät toisista roboteista", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "onks sun mielestä leikkiminen kivaa", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "vihaatko lunta", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "mitä mieltä oot espoosta", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "pidätkö minusta", 
+        "intent": "chat_preferences"
+      }, 
+      {
+        "text": "Sinä olet fiksu", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Kylläpä olet fiksu", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Sinä olet hieno", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Olet aika hyvä", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Todella hyvin tiedetty", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Oletpas sinä reipas", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "No jopas jotakin", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Oletpa fiksu", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Oletpa näppärä", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "Sinähän olet fiksu", 
+        "intent": "chat_compliment"
+      }, 
+      {
+        "text": "mitä maksutapaa voi käyttää", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "voinko maksaa käteisellä", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "voiko mobilepaylla maksaa", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "voinko maksaa kortilla", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "toimiiks mobilepay", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "miten voin maksaa", 
+        "intent": "service_pay_method"
+      }, 
+      {
+        "text": "paljon drinkit maksavat", 
+        "intent": "service_price"
+      }, 
+      {
+        "text": "mitä juomat maksavat", 
+        "intent": "service_price"
+      }, 
+      {
+        "text": "paljon juomat maksavat", 
+        "intent": "service_price"
+      }, 
+      {
+        "text": "paljon pulittaa yksi juoma", 
+        "intent": "service_price"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Tequila shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Tequila shot maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Matkamiehen kuolema", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Matkamiehen kuolema maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Valkovenäläinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Valkovenäläinen maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Jekkubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Jekkubattey maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Jallukola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Jallukola maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Caipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Caipiroska maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "kaipiroska", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon kaipiroska maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Asterix", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Asterix maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 24, 
+            "value": "Galliano Hot Shot", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Galliano Hot Shot maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Kossurussian", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Kossurussian maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Kelkka", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Kelkka maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Kossubattey", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Kossubattey maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Mai tai", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Mai tai maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Ampiainen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Ampiainen maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Auringonlasku", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Auringonlasku maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 23, 
+            "value": "Sex on the beach", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Sex on the beach maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 24, 
+            "value": "Sex on the Forssa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Sex on the Forssa maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Marianne", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Marianne maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Cosmopolitan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Cosmopolitan maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Rob Roy", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Rob Roy maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Strawberry daiquiri", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Strawberry daiquiri maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "Ville Vallaton", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Ville Vallaton maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 25, 
+            "value": "Kipparin erikoinen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Kipparin erikoinen maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Niskalaukaus", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Niskalaukaus maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 27, 
+            "value": "Strawberry margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Strawberry margarita maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "Top Gun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Top Gun maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Punainen kala", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Punainen kala maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Margarita", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Margarita maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 28, 
+            "value": "Seikkailu kevätjäillä", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Seikkailu kevätjäillä maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Mojito", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Mojito maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "Long Island Ice Tea", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Long Island Ice Tea maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Irish Coffee", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Irish Coffee maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Cuba Libre", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Cuba Libre maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "rommikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon rommikola maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "rommi kola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon rommi kola maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Gin Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Gin Tonic maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Pina Colada", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Pina Colada maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Whisky Sour", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Whisky Sour maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "White Nun", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon White Nun maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Manhattan", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Manhattan maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Vodka Tonic", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Vodka Tonic maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Vodka Martini", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Vodka Martini maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "Viskipommi", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Viskipommi maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Viskikola", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Viskikola maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Virtanen", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Virtanen maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Tom Collins", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Tom Collins maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Barracuda", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Barracuda maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "Mimosa", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Mimosa maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Tequila Sunrise", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Tequila Sunrise maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Bloody Mary", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Bloody Mary maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Singapore Sling", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Singapore Sling maksaa"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "Sininen enkeli", 
+            "entity": "drinkki"
+          }
+        ], 
+        "intent": "service_price", 
+        "text": "paljon Sininen enkeli maksaa"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "Sex on the Forssa", 
+          "Viskipommi", 
+          "Long Island Ice Tea", 
+          "Asterix", 
+          "kaipiroska", 
+          "Strawberry margarita", 
+          "Rob Roy", 
+          "Sininen enkeli", 
+          "Seikkailu kevätjäillä", 
+          "Bloody Mary", 
+          "Manhattan", 
+          "rommikola", 
+          "Viskikola", 
+          "Jallukola", 
+          "Whisky Sour", 
+          "Cosmopolitan", 
+          "rommi kola", 
+          "Vodka Tonic", 
+          "Tom Collins", 
+          "Singapore Sling", 
+          "Jekkubattey", 
+          "Irish Coffee", 
+          "Mimosa", 
+          "Valkovenäläinen", 
+          "Mai tai", 
+          "Ville Vallaton", 
+          "Barracuda", 
+          "Matkamiehen kuolema", 
+          "Margarita", 
+          "Strawberry daiquiri", 
+          "Pina Colada", 
+          "Gin Tonic", 
+          "Ampiainen", 
+          "Kossurussian", 
+          "Niskalaukaus", 
+          "Caipiroska", 
+          "Kossubattey", 
+          "Tequila Sunrise", 
+          "Sex on the beach", 
+          "Auringonlasku", 
+          "White Nun", 
+          "Vodka Martini", 
+          "Marianne", 
+          "Top Gun", 
+          "Cuba Libre", 
+          "Mojito", 
+          "Galliano Hot Shot", 
+          "Virtanen", 
+          "Kelkka", 
+          "Tequila shot", 
+          "Kipparin erikoinen", 
+          "Punainen kala"
+        ], 
+        "value": "drinkki"
+      }
+    ], 
+    "regex_features": []
+  }
+}
