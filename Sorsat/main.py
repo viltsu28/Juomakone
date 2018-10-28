@@ -2,14 +2,14 @@ import SpeechToText as stt
 import TextClassification as textClassify
 import PlayAudio
 import serial
-
+import os
 		
 		
 		
 def main():
 	# PUT HERE ALL INIT STUFF
 	ser = serial.Serial('/dev/ttyACM0', 11025, timeout=1) #timeout?
-	
+	os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/pi/SpeechDev/google_creds.json" #export google creds file
 	
 	# TODO: implement here loop checker if lpc is ready to operate (send something via usb and wait response)
 	
