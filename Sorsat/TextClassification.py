@@ -1,7 +1,10 @@
+# coding=utf-8
 import requests
 import json
+import random
 
 MIN_CONFIDENCE_LVL = 0.8
+NOT_UNDERSTOOD_ANSWER = ['Anteeksi en nyt ihan ymmärtänyt.', 'Voisitko toistaa?', 'Nyt en ihan ymmärtänyt mitä sanoit. Voisitko sanoa vielä uudestaan?']
 
 class Action:
 
@@ -20,9 +23,24 @@ class Action:
 
 		
 def getEntities(response):
-    pass
-
-    
+	entity = response['tracker']['latest_message']['entities']
+	userInput = response['tracker']['latest_message']['text']
+	
+	if entity: #if not empty
+		key = str(entity[0]['entity'])
+		value = str(entity[0]['value'])
+		
+		# check if value is drinkki TODO: fix in RASA if time
+		if value == 'drinkki':
+			start = int(entity[0]['start'])
+			end = int(entity[0]['end'])
+			value = str(userInput[start:end])
+			
+		return (key, value)
+		
+	return entity
+	
+	
 def getIntent(response):
     
     intent = response['tracker']['latest_message']['intent']['name']
@@ -61,14 +79,12 @@ def classifySpeech(speech):
 			confidence = getConfidence(parse_response)
 			
 			if (confidence > MIN_CONFIDENCE_LVL):
-				#entities = getEntities(parse_response)
-				entities = 'not implemented'
+				entities = getEntities(parse_response)
 				intent = getIntent(parse_response)
 				answer = getAnswer(answer_url, payload)
 				action = Action(intent, confidence, entities, answer)
-				#print "Entities: [ " + str(entities) + " ]\nIntent: [ " + str(intent) + " ]\nInt Confidence: [ " + str(confidence) + " ]\nAnswer: [ " + str(answer) + " ]\n"
 				yield action
 			else:
 				# Handle not understood moments		
-				print "Not understood: " #+ parse_response.text
-			
+				action = Action('not_understood', confidence, '', random.choice(NOT_UNDERSTOOD_ANSWER))
+				yield action
