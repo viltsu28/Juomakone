@@ -31,14 +31,19 @@ class AudioFile:
         self.stream.close()
         self.p.terminate()
 
+def playMusic(title):
+	audioFile = AudioFile("Audio/" + title + ".wav")
+	audioFile.play()
+	audioFile.close()
+
 
 def sayAnswer(answer):
 	# check first answer sha1sum and compare if one is found from AnswerBank. If not found make google tts request and save to Audio Bank.
 	import hashlib
 	import os.path
 	shaName = hashlib.sha1(answer).hexdigest()
-	fileNameWav = "AnswerBank/" + str(shaName) + ".wav"
-	fileNameMp3 = "AnswerBank/" + str(shaName) + ".mp3"
+	fileNameWav = "Audio/AnswerBank/" + str(shaName) + ".wav"
+	fileNameMp3 = "Audio/AnswerBank/" + str(shaName) + ".mp3"
 	
 	if os.path.isfile(fileNameWav):
 		print "play answer from bank!!!"
