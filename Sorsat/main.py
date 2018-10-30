@@ -38,7 +38,8 @@ def main():
 		elif intent == "service_order_specific_drink":
 			PlayAudio.sayAnswer(ac.answer)
 			#PlayAudio.playMusic("elevatorMusic")
-			ser.write("moi\n")
+			drinkName = ac.entities 					#here function that check synonyms for drink/or in rasa
+			ser.write('{"cmd":"make_drink","value":"' + drinkName + '"}\n')
 			jea = ser.readline()
 			print str(jea)
 			
